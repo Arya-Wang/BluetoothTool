@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BluetoothTool_Example' do
+  pod 'BluetoothTool', :path => '../'
+
+  target 'BluetoothTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
