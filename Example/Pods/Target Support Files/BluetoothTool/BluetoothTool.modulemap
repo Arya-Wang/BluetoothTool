@@ -1,0 +1,6 @@
+framework module BluetoothTool {
+  umbrella header "BluetoothTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
