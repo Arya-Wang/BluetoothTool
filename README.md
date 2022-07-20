@@ -22,7 +22,7 @@ pod 'BluetoothTool'
 
 ## Author
 
-Jane, 1184519565@qq.com
+Jane
 
 ## License
 

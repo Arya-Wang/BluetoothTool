@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09F0CB5A138E97489D9954EB25702C7E /* Pods-BluetoothTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACFA6B3C3404D67C4D6955808E55F8A /* Pods-BluetoothTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20D51696DB216BD859BABAFC1B624787 /* BluetoothTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B09E415ED365A1ADEAED3452A829ADA8 /* BluetoothTool-dummy.m */; };
+		3F58F1B92887DB09007FB7DD /* Confirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58F1B82887DB09007FB7DD /* Confirm.swift */; };
 		51CFFDCD0EC723E4A9E136999160D769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		58ACE72E74DF156BE444AB4E00FB7D39 /* Pods-BluetoothTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267475BF49E77CEB17C61586E8D2D91 /* Pods-BluetoothTool_Tests-dummy.m */; };
 		88956CD050137E1674C0333AC3C945C0 /* Pods-BluetoothTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E43181A4EDF65E78B156C2C934BB17 /* Pods-BluetoothTool_Example-dummy.m */; };
@@ -48,6 +49,7 @@
 		38E43181A4EDF65E78B156C2C934BB17 /* Pods-BluetoothTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluetoothTool_Example-dummy.m"; sourceTree = "<group>"; };
 		39C2D5EFB84381545E342C7A95C0FE80 /* Pods-BluetoothTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluetoothTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3F232D2E59D07BF6BF7A590963B17A1B /* BluetoothTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BluetoothTool-umbrella.h"; sourceTree = "<group>"; };
+		3F58F1B82887DB09007FB7DD /* Confirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirm.swift; sourceTree = "<group>"; };
 		45FB13F4A21C2561F42BE02D2964E9E9 /* Pods-BluetoothTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BluetoothTool_Example.modulemap"; sourceTree = "<group>"; };
 		46AED2664E094A970794BB1FE2156E0B /* Pods-BluetoothTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluetoothTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4B14F2F347BB4944ACFB1F12BD5E1882 /* Pods-BluetoothTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,10 +59,10 @@
 		647A405DD55580493C8C37E91FD4EDDF /* Pods-BluetoothTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluetoothTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		680B353F9CEC006E461378C99078EA7F /* Pods-BluetoothTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluetoothTool_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8496E1567C6B79D17D3A07BB2C22CCF8 /* BluetoothTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BluetoothTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8496E1567C6B79D17D3A07BB2C22CCF8 /* BluetoothTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BluetoothTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9793B0F38028073350E267F2BD00F610 /* Pods-BluetoothTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BluetoothTool_Example"; path = Pods_BluetoothTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A200DD59DBBCEC3493D1966DB4A6C8EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A200DD59DBBCEC3493D1966DB4A6C8EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A83E12DE878552EC403AB261E260BA21 /* Pods-BluetoothTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC8D0A0228FBF340FE72B7B16CC8425A /* BluetoothTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BluetoothTool.debug.xcconfig; sourceTree = "<group>"; };
 		B09E415ED365A1ADEAED3452A829ADA8 /* BluetoothTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BluetoothTool-dummy.m"; sourceTree = "<group>"; };
@@ -69,7 +71,7 @@
 		CCF8A3AEC2FD2501B5FBC3F7F11780DE /* BluetoothTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BluetoothTool.release.xcconfig; sourceTree = "<group>"; };
 		EAB071E7CC56CCD870F4700BFBCDFA00 /* BluetoothTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BluetoothTool; path = BluetoothTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF1669A0CD3FF01AFA93D2A36B37301 /* Pods-BluetoothTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluetoothTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F52363B34A3C631F11783ACEA0CDFA80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F52363B34A3C631F11783ACEA0CDFA80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				1A1F078205DBDD709B3950E2F30FA8F9 /* ReplaceMe.swift */,
+				3F58F1B82887DB09007FB7DD /* Confirm.swift */,
 				F873CC623FF59FEF8764DDC0686F194C /* Pod */,
 				4A6993ADACCC46000AB42F3A96636D61 /* Support Files */,
 			);
@@ -369,6 +372,7 @@
 			files = (
 				20D51696DB216BD859BABAFC1B624787 /* BluetoothTool-dummy.m in Sources */,
 				90CE86EF926FEFC989930782EC29215D /* ReplaceMe.swift in Sources */,
+				3F58F1B92887DB09007FB7DD /* Confirm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,8 +496,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
