@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BluetoothTool
 
 [![CI Status](https://img.shields.io/travis/Jane/BluetoothTool.svg?style=flat)](https://travis-ci.org/Jane/BluetoothTool)
@@ -28,6 +27,4 @@ Jane, 1184519565@qq.com
 ## License
 
 BluetoothTool is available under the MIT license. See the LICENSE file for more info.
-=======
-# BluetoothTool
->>>>>>> 5bd2170250ff11f578f7f992f47799e15ae8dbcf
+
